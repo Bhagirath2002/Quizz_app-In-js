@@ -1,0 +1,38 @@
+body{
+    background-color: #7ed6df;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box{
+    width: 50%;
+    /* height: 400px; */
+    box-shadow: 0 0 0 5px gray;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    
+}
+.row{
+    width: 100%;
+    margin: 2rem;
+    margin-left: 0;
+}
+.btn{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    color: aliceblue;
+    border-radius: 3px;
+    background-color: #eb4d4b;
+
+
+}
